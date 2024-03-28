@@ -40,3 +40,10 @@ where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and
 Потом вспомнили о лишних данных
 
 ![img](https://github.com/valery-dubinin/dbindex_hw/blob/main/img/5.png)
+
+После доработки вышло так:
+
+Убрал связку rental и customer по id, что вначале привело к увеличению времени выборки. Потом поменял условие без конвертации даты. Тогда заработал нормально индекс.
+
+![img](https://github.com/valery-dubinin/dbindex_hw/blob/main/img/6.png)
+
