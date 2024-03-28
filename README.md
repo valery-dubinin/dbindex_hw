@@ -2,6 +2,7 @@
 dbindex_hw
 Код тут:
 
+https://github.com/valery-dubinin/dbindex_hw/blob/main/img/Script.sql
 
 ### Задание 1
 
